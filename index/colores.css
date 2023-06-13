@@ -1,0 +1,43 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    height: 100vh;
+}
+header{
+    position:relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+    background-image: linear-gradient(to bottom,#b276d7d0 , #8b7fcfd2) , url(pexels-linda-ellershein-1749900.jpg);
+    padding-bottom: 60px;
+} 
+.contenedor-texto{
+    width: 50%;
+    color:#616A6B ;
+}
+h1{
+    font-size: 85px;
+    margin: 30px;
+    text-shadow: 1px 3px 3px #000;
+}
+img{
+    width: 40%;
+    display: inline-block;
+}
+
+.wave{
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+
+ }
